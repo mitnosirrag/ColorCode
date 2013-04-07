@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		224DC6F411054BDA001C8A84 /* ColorCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 224DC6F311054BDA001C8A84 /* ColorCode.m */; };
+		224DC70811055316001C8A84 /* ColorCodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224DC70711055316001C8A84 /* ColorCodeAppDelegate.m */; };
+		224DC8C711066A06001C8A84 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224DC8C611066A06001C8A84 /* PreferencesController.m */; };
+		224DC9C11107D57C001C8A84 /* PreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224DC9C01107D57C001C8A84 /* PreferencesController.xib */; };
+		2250516C110FD10000C8C3D9 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2250516B110FD10000C8C3D9 /* icon.icns */; };
+		225727D3110D12F400FD83BA /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225727D2110D12F400FD83BA /* UserDefaults.plist */; };
+		226653AB111113DD00986855 /* UserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 226653AA111113DD00986855 /* UserSettings.m */; };
+		22775E8B11196855005E6959 /* colorLabelsBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8411196855005E6959 /* colorLabelsBlue.png */; };
+		22775E8C11196855005E6959 /* colorLabelsGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8511196855005E6959 /* colorLabelsGreen.png */; };
+		22775E8D11196855005E6959 /* colorLabelsGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8611196855005E6959 /* colorLabelsGrey.png */; };
+		22775E8E11196855005E6959 /* colorLabelsOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8711196855005E6959 /* colorLabelsOrange.png */; };
+		22775E8F11196855005E6959 /* colorLabelsRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8811196855005E6959 /* colorLabelsRed.png */; };
+		22775E9011196855005E6959 /* colorLabelsViolet.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8911196855005E6959 /* colorLabelsViolet.png */; };
+		22775E9111196855005E6959 /* colorLabelsYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 22775E8A11196855005E6959 /* colorLabelsYellow.png */; };
+		229724301107EFD000728EE3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2297242F1107EFD000728EE3 /* Credits.rtf */; };
+		22D1338B1116DEA900F338AD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D1338A1116DEA900F338AD /* Sparkle.framework */; };
+		22D133AE1116DFC100F338AD /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22D1338A1116DEA900F338AD /* Sparkle.framework */; };
+		22D133C71116E4AA00F338AD /* sparkle_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 22D133C61116E4AA00F338AD /* sparkle_dsa_pub.pem */; };
+		22D15A6E1117E66C006EA18E /* colorCodeMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D15A6B1117E66C006EA18E /* colorCodeMenu.png */; };
+		22D15A6F1117E66C006EA18E /* colorCodeMenuSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D15A6C1117E66C006EA18E /* colorCodeMenuSelected.png */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22D133A91116DEEF00F338AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22D133AE1116DFC100F338AD /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		224DC6F311054BDA001C8A84 /* ColorCode.m */ = {isa = PBXFileReference; comments = p; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorCode.m; sourceTree = "<group>"; };
+		224DC6F511054BE2001C8A84 /* ColorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCode.h; sourceTree = "<group>"; };
+		224DC70611055316001C8A84 /* ColorCodeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCodeAppDelegate.h; sourceTree = "<group>"; };
+		224DC70711055316001C8A84 /* ColorCodeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorCodeAppDelegate.m; sourceTree = "<group>"; };
+		224DC8C511066A06001C8A84 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		224DC8C611066A06001C8A84 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		224DC9C01107D57C001C8A84 /* PreferencesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesController.xib; sourceTree = "<group>"; };
+		2250516B110FD10000C8C3D9 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		225727D2110D12F400FD83BA /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		226653A9111113DD00986855 /* UserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettings.h; sourceTree = "<group>"; };
+		226653AA111113DD00986855 /* UserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettings.m; sourceTree = "<group>"; };
+		22775E8411196855005E6959 /* colorLabelsBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsBlue.png; sourceTree = "<group>"; };
+		22775E8511196855005E6959 /* colorLabelsGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsGreen.png; sourceTree = "<group>"; };
+		22775E8611196855005E6959 /* colorLabelsGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsGrey.png; sourceTree = "<group>"; };
+		22775E8711196855005E6959 /* colorLabelsOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsOrange.png; sourceTree = "<group>"; };
+		22775E8811196855005E6959 /* colorLabelsRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsRed.png; sourceTree = "<group>"; };
+		22775E8911196855005E6959 /* colorLabelsViolet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsViolet.png; sourceTree = "<group>"; };
+		22775E8A11196855005E6959 /* colorLabelsYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorLabelsYellow.png; sourceTree = "<group>"; };
+		2297242F1107EFD000728EE3 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		22D1338A1116DEA900F338AD /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		22D133C61116E4AA00F338AD /* sparkle_dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle_dsa_pub.pem; sourceTree = "<group>"; };
+		22D15A6B1117E66C006EA18E /* colorCodeMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorCodeMenu.png; sourceTree = "<group>"; };
+		22D15A6C1117E66C006EA18E /* colorCodeMenuSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorCodeMenuSelected.png; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Color Code_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color Code_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Color Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				22D1338B1116DEA900F338AD /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				224DC70611055316001C8A84 /* ColorCodeAppDelegate.h */,
+				224DC70711055316001C8A84 /* ColorCodeAppDelegate.m */,
+				226653A9111113DD00986855 /* UserSettings.h */,
+				226653AA111113DD00986855 /* UserSettings.m */,
+				224DC6F311054BDA001C8A84 /* ColorCode.m */,
+				224DC6F511054BE2001C8A84 /* ColorCode.h */,
+				224DC8C511066A06001C8A84 /* PreferencesController.h */,
+				224DC8C611066A06001C8A84 /* PreferencesController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D1338A1116DEA900F338AD /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Color Code.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D15A6A1117E66C006EA18E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22775E8411196855005E6959 /* colorLabelsBlue.png */,
+				22775E8511196855005E6959 /* colorLabelsGreen.png */,
+				22775E8611196855005E6959 /* colorLabelsGrey.png */,
+				22775E8711196855005E6959 /* colorLabelsOrange.png */,
+				22775E8811196855005E6959 /* colorLabelsRed.png */,
+				22775E8911196855005E6959 /* colorLabelsViolet.png */,
+				22775E8A11196855005E6959 /* colorLabelsYellow.png */,
+				22D15A6B1117E66C006EA18E /* colorCodeMenu.png */,
+				22D15A6C1117E66C006EA18E /* colorCodeMenuSelected.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Color Code */ = {
+			isa = PBXGroup;
+			children = (
+				22D15A6A1117E66C006EA18E /* images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Color Code";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Color Code_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22D133C61116E4AA00F338AD /* sparkle_dsa_pub.pem */,
+				2250516B110FD10000C8C3D9 /* icon.icns */,
+				225727D2110D12F400FD83BA /* UserDefaults.plist */,
+				2297242F1107EFD000728EE3 /* Credits.rtf */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				224DC9C01107D57C001C8A84 /* PreferencesController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Color Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Color Code" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				22D133A91116DEEF00F338AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Code";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Color Code";
+			productReference = 8D1107320486CEB800E47090 /* Color Code.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Color Code" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Color Code */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Color Code */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				224DC9C11107D57C001C8A84 /* PreferencesController.xib in Resources */,
+				229724301107EFD000728EE3 /* Credits.rtf in Resources */,
+				225727D3110D12F400FD83BA /* UserDefaults.plist in Resources */,
+				2250516C110FD10000C8C3D9 /* icon.icns in Resources */,
+				22D133C71116E4AA00F338AD /* sparkle_dsa_pub.pem in Resources */,
+				22D15A6E1117E66C006EA18E /* colorCodeMenu.png in Resources */,
+				22D15A6F1117E66C006EA18E /* colorCodeMenuSelected.png in Resources */,
+				22775E8B11196855005E6959 /* colorLabelsBlue.png in Resources */,
+				22775E8C11196855005E6959 /* colorLabelsGreen.png in Resources */,
+				22775E8D11196855005E6959 /* colorLabelsGrey.png in Resources */,
+				22775E8E11196855005E6959 /* colorLabelsOrange.png in Resources */,
+				22775E8F11196855005E6959 /* colorLabelsRed.png in Resources */,
+				22775E9011196855005E6959 /* colorLabelsViolet.png in Resources */,
+				22775E9111196855005E6959 /* colorLabelsYellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				224DC6F411054BDA001C8A84 /* ColorCode.m in Sources */,
+				224DC70811055316001C8A84 /* ColorCodeAppDelegate.m in Sources */,
+				224DC8C711066A06001C8A84 /* PreferencesController.m in Sources */,
+				226653AB111113DD00986855 /* UserSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Code_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Color Code";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Code_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Color Code";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Color Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Color Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

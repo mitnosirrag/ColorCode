@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SourceDirectory</key>
+	<string>~/Desktop</string>
+	<key>DestinationDirectoryRed</key>
+	<string>~/Documents/ColorCode/Red</string>
+	<key>DestinationDirectoryOrange</key>
+	<string>~/Documents/ColorCode/Orange</string>
+	<key>DestinationDirectoryYellow</key>
+	<string>~/Documents/ColorCode/Yellow</string>
+	<key>DestinationDirectoryGreen</key>
+	<string>~/Documents/ColorCode/Green</string>
+	<key>DestinationDirectoryBlue</key>
+	<string>~/Documents/ColorCode/Blue</string>
+	<key>DestinationDirectoryViolet</key>
+	<string>~/Documents/ColorCode/Violet</string>
+	<key>DestinationDirectoryGrey</key>
+	<string>~/Documents/ColorCode/Grey</string>
+</dict>
+</plist>
